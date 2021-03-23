@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="style.css"
+></link>
+<html>
+  <body>
+    <div class="full-doc">
+      <div class="nav-bar">
+        <a class="nav-link" href="#thisweek">This Week</a>
+      </div>
+      <div class="news" id="thisweek">
+        <h1>What Happened This Past Week:</h1>
+        <h2>Record Number Of Undecided Voters Heading To The Election</h2>
+        <h2>ICC Sends Notifaction To Israel And Palestinians About Opening Of 2014 / 2018 War Crimes</h2>
+        <h2>Shin Bet Head Reaches Out To Abbas Before Palestinian Election</h2>
+      </div>
+      <div class="news" id="lastweek">
+        <h2>Two Weeks Ago</h2>
+        <h2>Israel Attacks Ship</h2>
+        <p class="story">
+          Israel is suspected to have been behind an explosion on the Iranian
+          ship
+          <i>Shahr e Kord</i>. The Iranian container ship was reportedly hit by
+          an explosive object en route between Rajaei, Iran to Europe. While
+          nobody on board was injured, the attack resulted in a small fire
+          forcing the ship to dock in the Syrian port of Latakia. Iranian state
+          media promised that legal actions would follow in an attempt to bring
+          to justice what they considered to be a "terrorist act." Israel has
+          not commented on any involvement in the attack. Many see this attack
+          as part of a broader war on...
+        </p>
+        <section class="option-list">
+          <label id="noCheck">
+            <input type="radio" name="tab" value="igotnone" onclick="show1();"/>
+            Israel's ongoing war against attmepted border infiltrations by
+            Hezbollah.
+          </label><br>
+          <label id="noCheck">
+            <input type="radio" name="tab" value="igotnone" onclick="show1();"/>
+          Ongoing US-Israeli efforts to enforce sanctions on Iran.
+        </label><br>
+        <div class="checkYes">
+          <input type="radio" name="tab" value="igottwo" onclick="show2();"/>
+          Israeli attempts to stop oil and weapons from reaching Syria.
+        </label>
+        <div id="div1" class="hide">
+          Reports indicate that Israel has bombed at least a dozen different ships en route between Syria and Iran. While none of the attacks have sunk the ships, they have forced several to return to Iran for repairs.
+    </div>
+    <div id="non-answer">
+      Try Again
+    </div>
+        <h2>Pfizer CEO Doesn't Come To Israel</h2>
+        <h2>Yarin Sherf Not Charged With Rape</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
