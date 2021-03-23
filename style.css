@@ -1,0 +1,20 @@
+.full-doc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 50px;
+  align-items: center;
+  border: 5px solid black;
+}
+
+.hide {
+  display: none;
+}
