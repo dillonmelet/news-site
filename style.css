@@ -80,6 +80,8 @@ a:hover {
   padding: 20px;
   box-shadow: 5px 10px #888888;
   font-size: 18px;
+  margin-left: 5%;
+  padding: 10px 40px;
 }
 
 .question1 {
