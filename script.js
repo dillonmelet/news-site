@@ -1,5 +1,13 @@
 "use strict";
 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
 function iccexplain1() {
   var x = document.getElementById("iccexplaination1");
   if (x.style.display === "none") {
