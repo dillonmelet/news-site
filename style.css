@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10%;
 }
 
 .full-title {
@@ -149,4 +150,18 @@ a:hover {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  font-size: 16px;
+  background-color: #111;
+  width: 67%;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: fixed;
 }
