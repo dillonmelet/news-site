@@ -1,5 +1,59 @@
 "use strict";
 
+function iccexplain1() {
+  var x = document.getElementById("iccexplaination1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function iccexplain2() {
+  var x = document.getElementById("iccexplaination2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function iccexplain3() {
+  var x = document.getElementById("iccexplaination3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function iccexplain4() {
+  var x = document.getElementById("iccexplaination4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function iccexplain5() {
+  var x = document.getElementById("iccexplaination5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function iccexplain6() {
+  var x = document.getElementById("iccexplaination6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 function question1() {
   var x = document.getElementById("answer1");
   if (x.style.display === "none") {
